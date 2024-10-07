@@ -1,6 +1,6 @@
-# ActiveTick-Spring-Boot
+# Trade-Feed-Platform
 
-**ActiveTick-Spring-Boot** is a Spring Boot service that wraps the ActiveTick REST API, managing session token refreshes and providing a set of reactive API calls. This project is focused on streaming snapshot quotes for subscribed tickers at 1-second intervals, fulfilling requirements for high-frequency trading technology.
+** Tired of building the same thing over again? This project is a set of maven modules that abstract market data and feeds into a common model and provides connectors into specific market feed providers including Polygon and ActiveTick. The scope of feed end points is not widely scoped starting with streaming reactive end points that allow subscriptions to 1 second quote snapshots. 
 
 ## Features
 - **Session Management**: Automatically refreshes session tokens to keep your connection active for continuous data requests.
