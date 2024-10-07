@@ -1,6 +1,5 @@
-# Trade-Feed-Platform
-
-** Tired of building the same thing over again? This project is a set of maven modules that abstract market data and feeds into a common model and provides connectors into specific market feed providers including Polygon and ActiveTick. The scope of feed end points is not widely scoped starting with streaming reactive end points that allow subscriptions to 1 second quote snapshots. 
+# Market Data Platform
+** Complete market data package that provides an abstract market data and feed model with streaming http using reactive libs and market feed provider integrations with ActiveTick and Polygon Providers. The API is scope at a common generic abstract model as well as provider specific end points that don't map to a common model. Have Fun. 
 
 ## Features
 - **Session Management**: Automatically refreshes session tokens to keep your connection active for continuous data requests.
